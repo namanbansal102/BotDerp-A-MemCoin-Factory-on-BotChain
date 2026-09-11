@@ -16,7 +16,7 @@ export const Route = createFileRoute("/my-coins")({
       {
         name: "description",
         content:
-          "See the memecoins you hold and created on BOT Chain testnet, and send them to any wallet.",
+          "See the memecoins you hold and created on BOT Chain Mainnet, and send them to any wallet.",
       },
       { property: "og:title", content: "My Coins | BOTDERP on BOT Chain" },
       {

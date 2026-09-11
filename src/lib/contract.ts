@@ -1,7 +1,7 @@
 import { botchain } from "./chain";
 
 export const MEMECOIN_FACTORY_ADDRESS =
-  "0x7812073E5Ea5404e550c662497386dCb41ebbBdd" as const;
+  "0xCFfAe2411155380deED474ebeB772760d9104718" as const;
 
 export const memecoinFactoryAbi = [
   {

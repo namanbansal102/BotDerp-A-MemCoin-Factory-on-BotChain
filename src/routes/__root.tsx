@@ -82,12 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "BOTDERP — Memecoin Launchpad on BOT Chain" },
       {
         name: "description",
-        content: "Create, clone and send memecoins on BOT Chain testnet.",
+        content: "Create, clone and send memecoins on BOT Chain Mainnet",
       },
       { property: "og:title", content: "BOTDERP — Memecoin Launchpad on BOT Chain" },
       {
         property: "og:description",
-        content: "Create, clone and send memecoins on BOT Chain testnet.",
+        content: "Create, clone and send memecoins on BOT Chain Mainnet",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

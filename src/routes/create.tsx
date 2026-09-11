@@ -18,12 +18,12 @@ export const Route = createFileRoute("/create")({
       {
         name: "description",
         content:
-          "Mint your own memecoin on BOT Chain testnet: pick a name, symbol, supply, artwork and socials.",
+          "Mint your own memecoin on BOT Chain Mainnet: pick a name, symbol, supply, artwork and socials.",
       },
       { property: "og:title", content: "Create a Memecoin on BOT Chain | BOTDERP" },
       {
         property: "og:description",
-        content: "Mint your own memecoin on BOT Chain testnet in a few clicks.",
+        content: "Mint your own memecoin on BOT Chain Mainnet in a few clicks.",
       },
     ],
   }),
@@ -109,7 +109,7 @@ function CreatePage() {
           Create <span className="glow-text">Memecoin</span>
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Deployed straight into the MemecoinFactory contract on BOT Chain testnet.
+          Deployed straight into the MemecoinFactory contract on BOT Chain Mainnet.
         </p>
 
         <div className="panel mt-6 space-y-5 p-5">

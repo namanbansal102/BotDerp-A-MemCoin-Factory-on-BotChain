@@ -15,7 +15,7 @@ export function SiteFooter() {
             BOT<span className="glow-text">DERP</span>
           </Link>
           <p className="mt-3 max-w-md text-sm leading-6 text-muted-foreground">
-            A live memecoin launchpad for creating, cloning, and sending tokens on BOT Chain testnet.
+            A live memecoin launchpad for creating, cloning, and sending tokens on BOT Chain Mainnet.
             Coin data stays on-chain; artwork is stored on IPFS.
           </p>
         </div>
@@ -46,7 +46,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-4 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <span>Built for BOT Chain testnet.</span>
+          <span>Built for BOT Chain Mainnet.</span>
           <span>Chain ID {botchain.id}</span>
         </div>
       </div>

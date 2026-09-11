@@ -18,12 +18,12 @@ export const Route = createFileRoute("/coin/$coinId")({
       {
         name: "description",
         content:
-          "Supply, holders, clones and creator details for a memecoin deployed on BOT Chain testnet.",
+          "Supply, holders, clones and creator details for a memecoin deployed on BOT Chain Mainnet.",
       },
       { property: "og:title", content: "Memecoin details | BOTDERP on BOT Chain" },
       {
         property: "og:description",
-        content: "Live on-chain stats for this BOT Chain testnet memecoin.",
+        content: "Live on-chain stats for this BOT Chain Mainnet memecoin.",
       },
     ],
   }),

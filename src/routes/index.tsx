@@ -19,16 +19,16 @@ import { formatAmount, shortAddress } from "@/lib/format";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "BOTDERP — Memecoin Launchpad on BOT Chain Testnet" },
+      { title: "BOTDERP — Memecoin Launchpad on BOT Chain Mainnet" },
       {
         name: "description",
         content:
-          "Create, clone and send memecoins on BOT Chain testnet. Every coin, holder and balance lives on-chain in one factory contract.",
+          "Create, clone and send memecoins on BOT Chain Mainnet. Every coin, holder and balance lives on-chain in one factory contract.",
       },
-      { property: "og:title", content: "BOTDERP — Memecoin Launchpad on BOT Chain Testnet" },
+      { property: "og:title", content: "BOTDERP — Memecoin Launchpad on BOT Chain Mainnet." },
       {
         property: "og:description",
-        content: "Create, clone and send memecoins on BOT Chain testnet.",
+        content: "Create, clone and send memecoins on BOT Chain Mainnet.",
       },
     ],
   }),
