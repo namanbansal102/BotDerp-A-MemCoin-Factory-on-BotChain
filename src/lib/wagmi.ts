@@ -6,7 +6,7 @@ export const wagmiConfig = createConfig({
   chains: [botchain],
   connectors: [injected()],
   transports: {
-    [botchain.id]: http("https://rpc.bohr.life"),
+    [botchain.id]: http(botchain.rpcUrls.default.http[0]),
   },
   ssr: true,
 });

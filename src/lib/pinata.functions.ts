@@ -23,7 +23,7 @@ export const uploadImageToIpfs = createServerFn({ method: "POST" })
     });
     const file = new File([bytes], data.fileName, { type: data.contentType });
     const upload = await pinata.upload.public.file(file);
-    const gateway = process.env["PINATA_GATEWAY"]?.replace(/^https?:\/\//, "").replace(/\/$/, "");
+    const gateway = "jade-added-egret-280.mypinata.cloud"
 
     return {
       uri: `ipfs://${upload.cid}`,
