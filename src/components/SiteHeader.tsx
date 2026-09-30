@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import { Rocket } from "lucide-react";
 import { WalletButton } from "@/components/WalletButton";
 import { botchain } from "@/lib/chain";
 
@@ -11,7 +10,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-4 px-4 py-3">
         <Link to="/" className="flex items-center gap-2">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary">
-            <Rocket className="h-5 w-5 text-primary-foreground" />
+            <img src="/logo.png" alt="BOTDERP" className="h-full w-full rounded-full object-cover" />
           </span>
           <span className="text-xl font-bold tracking-tight">
             BOT<span className="glow-text">DERP</span>

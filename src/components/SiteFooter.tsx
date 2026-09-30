@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ExternalLink, Rocket } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { botchain } from "@/lib/chain";
 import { explorerAddressUrl, MEMECOIN_FACTORY_ADDRESS } from "@/lib/contract";
 
@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="sm:col-span-2">
           <Link to="/" className="inline-flex items-center gap-2 text-lg font-bold">
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary">
-              <Rocket className="h-4 w-4 text-primary-foreground" />
+              <img src="/logo.png" alt="BOTDERP" className="h-full w-full rounded-full object-cover" />
             </span>
             BOT<span className="glow-text">DERP</span>
           </Link>
