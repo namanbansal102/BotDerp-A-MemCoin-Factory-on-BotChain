@@ -32,7 +32,15 @@ export function SiteFooter() {
         <div>
           <h2 className="text-sm font-semibold text-foreground">Network</h2>
           <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <p>{botchain.name}</p>
+              <a
+              href="https://www.botchain.ai/en/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1 text-primary hover:underline"
+            >
+              BotChain Mainnet<ExternalLink className="h-3.5 w-3.5" />
+            </a>
+            <br />
             <a
               href={explorerAddressUrl(MEMECOIN_FACTORY_ADDRESS)}
               target="_blank"
